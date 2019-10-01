@@ -1,0 +1,23 @@
+@keyframes pure-material-progress-linear {
+  0% {
+    background-size: 200% 100%;
+    background-position: left -31.25% top 0%;
+  }
+  50% {
+    background-size: 800% 100%;
+    background-position: left -49% top 0%;
+  }
+  100% {
+    background-size: 400% 100%;
+    background-position: left -102% top 0%;
+  }
+}
+
+.root {
+  height: 4px;
+  background-color: #e7eaf3;
+
+  background-size: 200% 100%;
+  background-image: linear-gradient(to right, transparent 50%, #8db849 50%, #8db849 60%, transparent 60%, transparent 71.5%, #8db849 71.5%, #8db849 84%, transparent 84%);
+  animation: pure-material-progress-linear 2s infinite linear;
+}

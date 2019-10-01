@@ -1,0 +1,16 @@
+.root {
+  transition: opacity 250ms ease-in-out;
+    
+    &.hidden {
+      display: none;
+    }
+    
+    &.loading {
+      display: block;
+    }
+}
+  
+  
+  
+ 
+  
