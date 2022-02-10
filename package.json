@@ -22,7 +22,7 @@
     "history": "^4.10.0",
     "init": "^0.1.2",
     "lodash": "^4.17.15",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "prop-types": "^15.7.2",
     "query-string": "^6.8.3",
     "react": "^16.9.0",
